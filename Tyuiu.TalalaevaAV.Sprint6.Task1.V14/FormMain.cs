@@ -40,7 +40,7 @@ namespace Tyuiu.TalalaevaAV.Sprint6.Task1.V14
                 textBoxResult_TAV.AppendText("+-----------+------------+" + Environment.NewLine);
                 for (int i = 0; i <= len - 1; i++)
                 {
-                    strLine = String.Format("|  {0,5:d}    |   {1, 6:f2}   |", startStep, valueArray[i]);
+                    strLine = String.Format("|  {0,5:d}    |   {1, 6:f3}   |", startStep, valueArray[i]);
                     textBoxResult_TAV.AppendText(strLine + Environment.NewLine);
                     startStep++;
                 }
