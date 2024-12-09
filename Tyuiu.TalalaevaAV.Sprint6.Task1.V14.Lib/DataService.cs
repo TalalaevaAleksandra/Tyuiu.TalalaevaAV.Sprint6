@@ -15,11 +15,11 @@ namespace Tyuiu.TalalaevaAV.Sprint6.Task1.V14.Lib
             {
                 if ((Math.Cos(i) + i) != 0)
                 {
-                     y = Math.Round(((2 * i + 6) / (Math.Cos(i) + i) - 3),3);
+                     y = Math.Round(((2 * i + 6) / (Math.Cos(i) + i) - 3),2);
                 }
                 else 
                 {
-                     y = 0.000;
+                     y = 0.00;
                 }
                 valueArray[count] = y;
                 count++;
