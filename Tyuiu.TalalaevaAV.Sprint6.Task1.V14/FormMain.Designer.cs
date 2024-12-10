@@ -94,6 +94,7 @@
             textBoxStartStep_TAV.Name = "textBoxStartStep_TAV";
             textBoxStartStep_TAV.Size = new Size(119, 23);
             textBoxStartStep_TAV.TabIndex = 2;
+            textBoxStartStep_TAV.TextChanged += textBoxStartStep_TAV_TextChanged;
             textBoxStartStep_TAV.KeyPress += textBoxStartStep_TAV_KeyPress;
             // 
             // textBoxVarStopStep_TAV

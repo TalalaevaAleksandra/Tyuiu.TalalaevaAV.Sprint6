@@ -15,12 +15,12 @@ namespace Tyuiu.TalalaevaAV.Sprint6.Task1.V14
 
         private void textBoxStartStep_TAV_KeyPress(object sender, KeyPressEventArgs e)
         {
-            
+
         }
 
         private void textBoxStopStep_TAV_KeyPress(object sender, KeyPressEventArgs e)
         {
-            
+
         }
 
         private void buttonResult_TAV_Click(object sender, EventArgs e)
@@ -55,6 +55,11 @@ namespace Tyuiu.TalalaevaAV.Sprint6.Task1.V14
         private void buttonData_TAV_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Таск 1 выполнила студент группы ИИПб-24-1 Талалаева Александра Васильевна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void textBoxStartStep_TAV_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
