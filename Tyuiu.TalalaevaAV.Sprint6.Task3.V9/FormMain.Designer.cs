@@ -94,6 +94,7 @@
             dataGridViewDone.RowHeadersVisible = false;
             dataGridViewDone.Size = new Size(244, 243);
             dataGridViewDone.TabIndex = 0;
+            dataGridViewDone.CellContentClick += dataGridViewDone_CellContentClick;
             // 
             // buttonData_TAV
             // 

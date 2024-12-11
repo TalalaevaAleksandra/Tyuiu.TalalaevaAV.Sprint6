@@ -60,6 +60,11 @@ namespace Tyuiu.TalalaevaAV.Sprint6.Task3.V9
                 }
             }
         }
+
+        private void dataGridViewDone_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
 
