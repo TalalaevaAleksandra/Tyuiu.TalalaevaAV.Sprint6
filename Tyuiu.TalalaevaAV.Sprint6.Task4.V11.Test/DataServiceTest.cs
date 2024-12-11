@@ -1,5 +1,5 @@
-using Tyuiu.TalalaevaAV.Sprint6.Tasr4.V11.Lib;
-namespace Tyuiu.TalalaevaAV.Sprint6.Tasr4.V11.Test
+using Tyuiu.TalalaevaAV.Sprint6.Task4.V11.Lib;
+namespace Tyuiu.TalalaevaAV.Sprint6.Task4.V11.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -12,7 +12,6 @@ namespace Tyuiu.TalalaevaAV.Sprint6.Tasr4.V11.Test
             double[] res = ds.GetMassFunction(startValue, stopValue);
             double[] wait = { 20.36, 15.42, 10.99, 7.43, 4.33, 1, 0.00, -8.87, -13.03, -16.53, -19.6 };
             CollectionAssert.AreEqual(wait, res);
-
         }
     }
 }

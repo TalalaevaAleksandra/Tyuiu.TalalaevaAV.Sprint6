@@ -1,4 +1,4 @@
-namespace Tyuiu.TalalaevaAV.Sprint6.Tasr4.V11
+namespace Tyuiu.TalalaevaAV.Sprint6.Task4.V11
 {
     internal static class Program
     {

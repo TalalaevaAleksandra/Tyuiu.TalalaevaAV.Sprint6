@@ -1,5 +1,5 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint6;
-namespace Tyuiu.TalalaevaAV.Sprint6.Tasr4.V11.Lib
+namespace Tyuiu.TalalaevaAV.Sprint6.Task4.V11.Lib
 {
     public class DataService : ISprint6Task4V11
     {
@@ -18,7 +18,7 @@ namespace Tyuiu.TalalaevaAV.Sprint6.Tasr4.V11.Lib
                     valueArray[count] = y;
                     count++;
                 }
-                else 
+                else
                 {
                     y = 0.00;
                     valueArray[count] = y;
@@ -26,7 +26,6 @@ namespace Tyuiu.TalalaevaAV.Sprint6.Tasr4.V11.Lib
                 }
             }
             return valueArray;
-        
         }
     }
 }

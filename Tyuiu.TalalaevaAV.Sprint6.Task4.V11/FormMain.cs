@@ -1,5 +1,5 @@
-using Tyuiu.TalalaevaAV.Sprint6.Tasr4.V11.Lib;
-namespace Tyuiu.TalalaevaAV.Sprint6.Tasr4.V11
+using Tyuiu.TalalaevaAV.Sprint6.Task4.V11.Lib;
+namespace Tyuiu.TalalaevaAV.Sprint6.Task4.V11
 {
     public partial class FormMain : Form
     {
@@ -8,27 +8,18 @@ namespace Tyuiu.TalalaevaAV.Sprint6.Tasr4.V11
             InitializeComponent();
         }
         DataService ds = new DataService();
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
 
-        }
-
-        private void buttonData_Click(object sender, EventArgs e)
+        private void buttonData_TAV_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Таск 4 выполнила студент группы ИИПб-24-1 Талалаева Александра Васильевна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonDone_Click(object sender, EventArgs e)
+        private void buttonResult_TAV_Click(object sender, EventArgs e)
         {
             try
             {
-                int startStep = Convert.ToInt32(textBoxStartStep.Text);
-                int stopStep = Convert.ToInt32(textBoxStopStep.Text);
+                int startStep = Convert.ToInt32(textBoxStartStep_TAV.Text);
+                int stopStep = Convert.ToInt32(textBoxStopStep_TAV.Text);
                 int len = ds.GetMassFunction(startStep, stopStep).Length;
                 double[] valueArray;
                 valueArray = new double[len];
@@ -51,7 +42,12 @@ namespace Tyuiu.TalalaevaAV.Sprint6.Tasr4.V11
             }
         }
 
-        private void buttonSave_Click(object sender, EventArgs e)
+        private void textBoxStartStep_TAV_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonSave_TAV_Click(object sender, EventArgs e)
         {
             try
             {
