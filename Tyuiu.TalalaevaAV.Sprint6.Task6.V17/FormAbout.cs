@@ -28,7 +28,7 @@ namespace Tyuiu.TalalaevaAV.Sprint6.Task6.V17
             // 
             // buttonOK_TAV
             // 
-            buttonOK_TAV.Location = new Point(394, 156);
+            buttonOK_TAV.Location = new Point(391, 153);
             buttonOK_TAV.Name = "buttonOK_TAV";
             buttonOK_TAV.Size = new Size(73, 27);
             buttonOK_TAV.TabIndex = 0;
@@ -39,23 +39,25 @@ namespace Tyuiu.TalalaevaAV.Sprint6.Task6.V17
             // pictureBoxMe_TAV
             // 
             pictureBoxMe_TAV.Image = (Image)resources.GetObject("pictureBoxMe_TAV.Image");
-            pictureBoxMe_TAV.Location = new Point(7, 20);
+            pictureBoxMe_TAV.Location = new Point(4, 17);
             pictureBoxMe_TAV.Name = "pictureBoxMe_TAV";
             pictureBoxMe_TAV.Size = new Size(115, 153);
             pictureBoxMe_TAV.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBoxMe_TAV.TabIndex = 1;
             pictureBoxMe_TAV.TabStop = false;
+            
             // 
             // textBox1
             // 
             textBox1.BackColor = SystemColors.Menu;
             textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Location = new Point(128, 20);
+            textBox1.Location = new Point(125, 17);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(359, 130);
             textBox1.TabIndex = 2;
             textBox1.Text = resources.GetString("textBox1.Text");
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // FormAbout
             // 
@@ -86,7 +88,12 @@ namespace Tyuiu.TalalaevaAV.Sprint6.Task6.V17
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            
+
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
