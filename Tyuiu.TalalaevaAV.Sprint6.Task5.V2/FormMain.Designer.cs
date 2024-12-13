@@ -115,6 +115,7 @@
             textBoxCondition_TAV.Size = new Size(450, 47);
             textBoxCondition_TAV.TabIndex = 0;
             textBoxCondition_TAV.Text = "Прочитать данные из файла InPutFileTask5V2.txt. Вывести в dataGridView. Вывести все отрицательные числа. Построить диаграмму по этим значениям";
+            textBoxCondition_TAV.TextChanged += textBoxCondition_TAV_TextChanged;
             // 
             // panelDataOutPut_TAV
             // 

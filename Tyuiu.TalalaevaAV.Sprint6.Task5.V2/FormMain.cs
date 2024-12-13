@@ -39,5 +39,10 @@ namespace Tyuiu.TalalaevaAV.Sprint6.Task5.V2
         {
             MessageBox.Show("Таск 4 выполнила студент группы ИИПб-24-1 Талалаева Александра Васильевна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void textBoxCondition_TAV_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
